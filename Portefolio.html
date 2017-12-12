@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<title>PORTFOLIO</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src='Script.js'></script>
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Raleway', sans-serif
+    }
+</style>
+
+<body class='w3-light-grey w3-content' style='max-width:1600px'>
+
+    <!-- Sidebar/menu -->
+    <nav class='w3-sidebar w3-collapse w3-white w3-animate-left' style='z-index:3;width:300px;' id='mySidebar'>
+        <br>
+        <div class='w3-container'>
+            <a href='#' onclick='w3_close()' class='w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey' title='close menu'>
+                <i class='fa fa-remove'></i>
+            </a>
+            <img src='img/foto.jpg' alt='Image not found!' style='width:45%;' class='w3-round'>
+            <br>
+            <br>
+            <h4>
+                <b>Ângela Tavares</b>
+            </h4>
+        </div>
+        <div class='w3-bar-block'>
+            <a href='#portfolio' onclick='w3_close()' class='w3-bar-item w3-button w3-padding w3-text-green'>
+                <i class='fa fa-th-large fa-fw w3-margin-right'></i>PORTFOLIO</a>
+            <a href="CV.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding" target="_blank">
+                <i class="fa fa-file-text fa-fw w3-margin-right"></i>CURRICULUM</a>
+            <a href='#about' onclick='w3_close()' class='w3-bar-item w3-button w3-padding'>
+                <i class='fa fa-user fa-fw w3-margin-right'></i>ABOUT</a>
+            <a href='#contact' onclick='w3_close()' class='w3-bar-item w3-button w3-padding'>
+                <i class='fa fa-envelope fa-fw w3-margin-right'></i>CONTACT</a>
+        </div>
+        <div class='w3-panel w3-large'>
+            <a href='https://www.facebook.com/profile.php?id=100013627324813' target='_blank'>
+                <i class='fa fa-facebook-official w3-hover-opacity'></i>
+            </a>
+            <a href='https://www.linkedin.com/in/acacmt' target='_blank'>
+                <i class='fa fa-linkedin w3-hover-opacity'></i>
+            </a>
+            <a href='https://github.com/acacmt' target='_blank'>
+                <i class='fa fa-github w3-hover-opacity'></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class='w3-overlay w3-hide-large w3-animate-opacity' onclick='w3_close()' style='cursor:pointer' title='close side menu'
+        id='myOverlay'></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class='w3-main' style='margin-left:300px'>
+
+        <!-- Header -->
+        <header id='portfolio'>
+            <div class='w3-container'>
+                <h1>
+                    <b>My Portfolio</b>
+                </h1>
+                <div class='w3-section w3-bottombar w3-padding-15'></div>
+            </div>
+        </header>
+
+        <!-- First Photo Grid-->
+        <div class='w3-row-padding' id="portfolios">
+            <div class='w3-third w3-container w3-margin-bottom'>
+                <img src='img/sc.jpg' alt='Image not found!' style='width:100%' class='w3-hover-opacity'>
+                <div class='w3-container w3-white'>
+                    <br>
+                    <p>
+                        <b>
+                            <h5>The impact of technology on music</h5>
+                        </b>
+                    </p>
+                    <p>
+                        <b>Discipline:</b> Computational Systems</p>
+                    <p>
+                        <b>Description:</b> Idea of ​​computational innovation in the field of music based on past and present
+                        artifacts and plans already thought about the future in order to create something innovative</p>
+                    <p>
+                        <a href='pdf/sc.pdf' target='_blank'>
+                            <i class='fa fa-file w3-hover-opacity'>
+                                <b> PDF</b>
+                            </i>
+                        </a>
+                    </p>
+                    <p>
+                        <b>Final grade:</b> 16/20</p>
+                </div>
+            </div>
+            <div class='w3-third w3-container w3-margin-bottom'>
+                <img src='img/taw.jpg' alt='Image not found!' style='width:100%' class='w3-hover-opacity'>
+                <div class='w3-container w3-white'>
+                    <br>
+                    <p>
+                        <b>
+                            <h5>Promotional video</h5>
+                        </b>
+                    </p>
+                    <p>
+                        <b>Discipline:</b> Web Technologies and Applications</p>
+                    <p>
+                        <b>Description:</b> Realization for the field of Technologies and Web Applications, a video that helps
+                        in the dissemination of the course on Technologies and Information Systems for the Web, since it
+                        is a relatively recent course about which there is not much information yet</p>
+                    <p>
+                        <a href='https://youtu.be/voYTuVmvGUk' target='_blank'>
+                            <i class='fa fa-play-circle w3-hover-opacity'>
+                                <b> video</b>
+                            </i>
+                        </a>
+                        <a href='pdf/taw.pdf' target='_blank'>
+                            <i class='fa fa-file w3-hover-opacity'>
+                                <b> PDF</b>
+                            </i>
+                        </a>
+                    </p>
+                    <p>
+                        <b>Final grade:</b> 16/20</p>
+                </div>
+            </div>
+            <div class='w3-third w3-container'>
+                <img src='img/P1.png' alt='Image not found!' style='width:100%' class='w3-hover-opacity'>
+                <div class='w3-container w3-white'>
+                    <br>
+                    <p>
+                        <b>
+                            <h5>Lost and Found Software</h5>
+                        </b>
+                    </p>
+                    <p>
+                        <b>Discipline:</b> Project I</p>
+                    <p>
+                        <b>Description:</b> Realization for the field of Technologies and Web Applications, a video that helps
+                        in the dissemination of the course on Technologies and Information Systems for the Web, since it
+                        is a relatively recent course about which there is not much information yet</p>
+                    <p>
+                        <a href='https://github.com/andregouveia8/softlost' target='_blank'>
+                            <i class='fa fa-code w3-hover-opacity'>
+                                <b> code</b>
+                            </i>
+                        </a>
+                        <a href='https://youtu.be/VLuBi00ivvQ' target='_blank'>
+                            <i class='fa fa-play-circle w3-hover-opacity'>
+                                <b> video</b>
+                            </i>
+                        </a>
+                        <a href='pdf/p1.pdf' target='_blank'>
+                            <i class='fa fa-file w3-hover-opacity'>
+                                <b> PDF</b>
+                            </i>
+                        </a>
+                    </p>
+                    <p>
+                        <b>Final grade:</b> 15/20</p>
+                </div>
+            </div>
+        </div>
+        <!-- Pagination -->
+        <div class='w3-center w3-padding-32'>
+            <div class='w3-bar'>
+                <a id='«' href='#portfolio' class='w3-bar-item w3-button w3-hover-dark-grey'>
+                    <b>«</b>
+                </a>
+                <a id='one' href='#portfolio' class='w3-bar-item w3-hover-dark-grey w3-button'>
+                    <b>1</b>
+                </a>
+                <a id='two' href='#portfolio' class='w3-bar-item w3-button w3-hover-dark-grey'>
+                    <b>2</b>
+                </a>
+                <a id='three' href='#portfolio' class='w3-bar-item w3-button w3-hover-dark-grey'>
+                    <b>3</b>
+                </a>
+                <a id='four' href='#portfolio' class='w3-bar-item w3-button w3-hover-dark-grey'>
+                    <b>4</b>
+                </a>
+                <a id='five' href='#portfolio' class='w3-bar-item w3-button w3-hover-dark-grey'>
+                    <b>5</b>
+                </a>
+                <a id='»' href='#portfolio' class='w3-bar-item w3-button w3-hover-dark-grey'>
+                    <b>»</b>
+                </a>
+            </div>
+        </div>
+
+        <!-- Images of Me -->
+        <div class='w3-row-padding w3-padding-16' id='about'>
+            <div class='w3-col m6'>
+                <img src='img\Me.jpg' alt='Me' style='width:100%'>
+            </div>
+            <div class='w3-col m6'>
+                <img src='img\Me1.jpg' alt='Me' style='width:100%'>
+            </div>
+        </div>
+
+        <div class='w3-container w3-padding-large' style='margin-bottom:32px'>
+            <h4>
+                <b>About Me</b>
+            </h4>
+            <p class='text-justify'>
+                I was born in Porto on a sunny day in September, it was 1997. Michael Jackson Season, Spice Girl, Mariah Carey, and the great
+                Leonardo DiCaprio! I grew up with the races of the village, behind the animals and the conquest of new friends,
+                with Strawberries with Sugar with Bravo, with Roxette, with Justin Bieber, with the Linkin Park, with the
+                boom of Hip-hop, with all that was considered astonishing for the time. Missing! When I realized I had to
+                choose something to follow, the technology seemed to me an interesting thing. Over there I went to Technologies
+                and Information Systems for the Web, at the Superior School of Media Arts and Design, full of dreams and
+                ambitions. Currently attending the first semester of the third year.
+            </p>
+            <br>
+            <div>
+                <button id='btn_collapse' type='button' class='btn btn-md btn-default collapsed w3-dark-grey' data-toggle='collapse' data-target='#demo'>Curiosities</button>
+            </div>
+
+            <div id='demo' class='collapse'>
+                <br>
+                <p class='text-justify'>
+                    Event organizer, extracurricular activities and parties by the secondary students' association, certificate collector, diplomas
+                    and medals since childhood in the swimming and other modality, delegate of class during my fantastic
+                    twelfth year, scouts throughout five years by explorer and Pioneer and thus acquiring responsibility
+                    and the importance of working as a team. Portista occasion, inventor of kitchen to elaborate dishes and
+                    satisfy the greed of others, owner of a considerable collection of books, varnishes and shoes, daily
+                    sportsman (volleyball and swimming are a vice), person who does not say not a party, a way out, chocolate,
+                    shopping or new experiences and always ready to jump in an airplane because there is nothing better in
+                    life than to know new cultures and acquire other knowledge. Nature fan who never misses a good day whether
+                    sun or rain enjoy the same accompanied by a cup of tea and a good book. Lover of a good laugh, of good
+                    friends and moments spent as a family.
+                </p>
+            </div>
+            <hr>
+
+            <h4>Technical Skills</h4>
+            <!-- Progress bars / Skills -->
+            <b>Programming</b>
+            <p>JavaScript</p>
+            <div class='w3-grey'>
+                <div id='skill' class='w3-container w3-dark-grey w3-padding w3-center' style='width:70%'>70%</div>
+            </div>
+            <p>JQuery</p>
+            <div class='w3-grey'>
+                <div id='skill' class='w3-container w3-dark-grey w3-padding w3-center' style='width:55%'>55%</div>
+            </div>
+            <p>HTML</p>
+            <div class='w3-grey'>
+                <div id='skill' class='w3-container w3-dark-grey w3-padding w3-center' style='width:75%'>75%</div>
+            </div>
+            <div id='demo1' class='collapse'>
+                <p>Bootstrap</p>
+                <div class='w3-grey'>
+                    <div id='skill' class='w3-container w3-dark-grey w3-padding w3-center' style='width:70%'>70%</div>
+                </div>
+                <p>CSS</p>
+                <div class='w3-grey'>
+                    <div id='skill' class='w3-container w3-dark-grey w3-padding w3-center' style='width:85%'>85%</div>
+                </div>
+                <p>#C</p>
+                <div class='w3-grey'>
+                    <div id='skill' class='w3-container w3-dark-grey w3-padding w3-center' style='width:30%'>30%</div>
+                </div>
+                <p>Ajax</p>
+                <div class='w3-grey'>
+                    <div id='skill' class='w3-container w3-dark-grey w3-padding w3-center' style='width:35%'>35%</div>
+                </div>
+            </div>
+            <br>
+            <button id='more' type='button' class='btn btn-md btn-default collapsed w3-dark-grey' data-toggle='collapse' data-target='#demo1'>More</button>
+
+
+            <br>
+            <br>
+            <b>Others</b>
+            <p>Web Design</p>
+            <div class='w3-grey'>
+                <div class='w3-container w3-dark-grey w3-padding w3-center' style='width:75%'>75%</div>
+            </div>
+            <p>Adobe Photoshop</p>
+            <div class='w3-grey'>
+                <div class='w3-container w3-dark-grey w3-padding w3-center' style='width:65%'>65%</div>
+            </div>
+            <p>Adobe Illustrator</p>
+            <div class='w3-grey'>
+                <div class='w3-container w3-dark-grey w3-padding w3-center' style='width:50%'>50%</div>
+            </div>
+            <p>Software Engineering</p>
+            <div class='w3-grey'>
+                <div id='skill' class='w3-container w3-dark-grey w3-padding w3-center' style='width:80%'>80%</div>
+            </div>
+            <div id='demo2' class='collapse'>
+                <p>Database (SQL | XML | JSON)</p>
+                <div class='w3-grey'>
+                    <div id='skill' class='w3-container w3-dark-grey w3-padding w3-center' style='width:75%'>75%</div>
+                </div>
+                <p>Adobe Premiere</p>
+                <div class='w3-grey'>
+                    <div class='w3-container w3-dark-grey w3-padding w3-center' style='width:50%'>50%</div>
+                </div>
+                <p>Photography</p>
+                <div class='w3-grey'>
+                    <div class='w3-container w3-dark-grey w3-padding w3-center' style='width:65%'>
+                        <div class='w3-center w3-text-white'>65%</div>
+                    </div>
+                </div>
+                <p>Media</p>
+                <div class='w3-grey'>
+                    <div class='w3-container w3-dark-grey w3-padding w3-center' style='width:50%'>50%</div>
+                </div>
+            </div>
+            <br>
+            <button id='more1' type='button' class='btn btn-md btn-default collapsed w3-dark-grey' data-toggle='collapse' data-target='#demo2'>More</button>
+
+            <hr>
+
+
+            <!-- Contact Section -->
+            <div class='w3-container w3-padding-large w3-grey'>
+                <h4 id='contact'>
+                    <b>Contact Me</b>
+                </h4>
+                <div class='w3-row-padding w3-center w3-padding-24' style='margin:0 -16px'>
+                    <div class='w3-third w3-dark-grey'>
+                        <p>
+                            <i class='fa fa-envelope w3-xxlarge w3-text-light-grey'></i>
+                        </p>
+                        <p>angela.carolina.tavares@gmail.com</p>
+                    </div>
+                    <div class='w3-third w3-green'>
+                        <p>
+                            <i class='fa fa-map-marker w3-xxlarge w3-text-light-grey'></i>
+                        </p>
+                        <p>Porto, PT</p>
+                    </div>
+                    <div class='w3-third w3-dark-grey'>
+                        <p>
+                            <i class='fa fa-phone w3-xxlarge w3-text-light-grey'></i>
+                        </p>
+                        <p>919698018</p>
+                    </div>
+                </div>
+                <hr class='w3-opacity'>
+            </div>
+
+
+            <!-- End page content -->
+        </div>
+    </div>
+</body>
+
+</html>
