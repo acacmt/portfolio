@@ -1,3 +1,14 @@
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById('mySidebar').style.display = 'block';
+    document.getElementById('myOverlay').style.display = 'block';
+}
+
+function w3_close() {
+    document.getElementById('mySidebar').style.display = 'none';
+    document.getElementById('myOverlay').style.display = 'none';
+}
+
 $(document).ready(function () {
     $("#more").parent().on("click", "#more", function () {
         $("#more").text("Less");
@@ -17,16 +28,7 @@ $(document).ready(function () {
         $("#less1").attr("id", "more1");
     });
 
-    // Script to open and close sidebar
-    function w3_open() {
-        document.getElementById('mySidebar').style.display = 'block';
-        document.getElementById('myOverlay').style.display = 'block';
-    }
 
-    function w3_close() {
-        document.getElementById('mySidebar').style.display = 'none';
-        document.getElementById('myOverlay').style.display = 'none';
-    }
     $("#«").click(function () {
         $("#portfolios").html("<div class='w3-third w3-container w3-margin-bottom'><img src='img/sc.jpg' alt='Image not found!' style='width:100%' class='w3-hover-opacity'><div class='w3-container w3-white'><br><p><b><h5>The impact of technology on music</h5></b></p><p><b>Discipline:</b> Computational Systems</p><p><b>Description:</b> Idea of ​​computational innovation in the field of music based on past and present artifacts and plans already thought about the future in order to create something innovative</p><p><a href='pdf/sc.pdf' target='_blank'> <i class='fa fa-file w3-hover-opacity'><b> PDF</b></i></a></p><p><b>Final grade:</b> 16/20</p></div></div><div class='w3-third w3-container w3-margin-bottom'><img src='img/taw.jpg' alt='Image not found!' style='width:100%' class='w3-hover-opacity'><div class='w3-container w3-white'><br><p><b><h5>Promotional video</h5></b></p><p><b>Discipline:</b> Web Technologies and Applications</p><p><b>Description:</b> Realization for the field of Technologies and Web Applications, a video that helps in the dissemination of the course on Technologies and Information Systems for the Web, since it is a relatively recent course about which there is not much information yet</p><p><a href='https://youtu.be/voYTuVmvGUk' target='_blank'> <i class='fa fa-play-circle w3-hover-opacity'><b> video</b></i></a><a href='pdf/taw.pdf' target='_blank'> <i class='fa fa-file w3-hover-opacity'><b> PDF</b></i></a></p><p><b>Final grade:</b> 16/20</p></div></div><div class='w3-third w3-container'><img src='img/P1.png' alt='Image not found!' style='width:100%' class='w3-hover-opacity'><div class='w3-container w3-white'><br><p><b><h5>Lost and Found Software</h5></b></p><p><b>Discipline:</b> Project I</p><p><b>Description:</b> Realization for the field of Technologies and Web Applications, a video that helps in the dissemination of the course on Technologies and Information Systems for the Web, since it is a relatively recent course about which there is not much information yet</p><p><a href='https://github.com/andregouveia8/softlost' target='_blank'> <i class='fa fa-code w3-hover-opacity'><b> code</b></i></a><a href='https://youtu.be/VLuBi00ivvQ' target='_blank'> <i class='fa fa-play-circle w3-hover-opacity'><b> video</b></i></a><a href='pdf/p1.pdf' target='_blank'> <i class='fa fa-file w3-hover-opacity'><b> PDF</b></i></a></p><p><b>Final grade:</b> 15/20</p></div></div>")
     });
